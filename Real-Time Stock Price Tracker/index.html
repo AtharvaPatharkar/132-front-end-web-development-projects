@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real-Time Stock Price Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Real-Time Stock Price Tracker</h1>
+      <p>Enter the stock symbol to fetch the current price in Indian Rupees (INR)</p>
+    </header>
+
+    <div class="stock-container">
+      <input type="text" id="stockSymbol" placeholder="Enter Stock Symbol" autofocus>
+      <button id="fetchPrice">Get Stock Price</button>
+    </div>
+
+    <div id="stockPrice" class="stock-price">
+      <p>Stock Price: ₹<span id="price">0.00</span></p>
+    </div>
+
+    <hr>
+    <footer>
+      <div class="copyright">
+        © 2025 CodeWithAP. All rights reserved.
+      </div>
+      <a class="github-link" href="https://github.com/AtharvaPatharkar" target="_blank">GitHub</a>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
