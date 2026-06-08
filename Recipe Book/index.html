@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Book</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="title">Recipe Book</h1>
+    </header>
+    <main>
+      <div class="form-section">
+        <h2>Add Your Recipe</h2>
+        <form id="recipe-form">
+          <input type="text" id="recipe-title" placeholder="Recipe Title" required />
+          <textarea id="recipe-details" placeholder="Recipe Details" rows="5" required></textarea>
+          <button type="submit" class="btn">Add Recipe</button>
+        </form>
+      </div>
+      <div class="recipes-section">
+        <h2>Your Recipes</h2>
+        <div id="recipes-container">
+          <!-- Recipes will appear here -->
+        </div>
+      </div>
+    </main>
+    <hr>
+    <footer>
+      <div class="copyright">
+        © 2024 CodeWithAP. All rights reserved.
+      </div>
+      <a class="github-link" href="https://github.com/AtharvaPatharkar" target="_blank">GitHub</a>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
