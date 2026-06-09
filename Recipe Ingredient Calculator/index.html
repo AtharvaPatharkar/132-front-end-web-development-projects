@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Ingredient Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍳 Recipe Ingredient Calculator</h1>
+            <p>Scale your recipe ingredients based on the number of servings!</p>
+        </header>
+        <main>
+            <div class="calculator">
+                <div class="input-fields">
+                    <label for="originalServings">Original Servings</label>
+                    <input type="number" id="originalServings" placeholder="Enter original servings" min="1">
+                    
+                    <label for="desiredServings">Desired Servings</label>
+                    <input type="number" id="desiredServings" placeholder="Enter desired servings" min="1">
+
+                    <label for="ingredientAmount">Ingredient Amount</label>
+                    <input type="number" id="ingredientAmount" placeholder="Enter ingredient amount" min="0">
+
+                    <button id="calculateBtn">Calculate</button>
+                </div>
+
+                <div class="result">
+                    <h2>Scaled Ingredient Amount</h2>
+                    <p id="scaledAmount">0</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <hr>
+    <footer>
+        <div class="copyright">
+            © 2025 CodeWithAP. All rights reserved.
+        </div>
+        <a class="github-link" href="https://github.com/AtharvaPatharkar" target="_blank">GitHub</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
