@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Blog with CRUD Operations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>My Simple Blog</h1>
+      <p>Welcome to the blog! You can create, read, update, and delete posts.</p>
+    </header>
+
+    <div class="blog-form">
+      <h2>Create a New Post</h2>
+      <form id="blogForm">
+        <input type="text" id="postTitle" placeholder="Post Title" required>
+        <textarea id="postContent" placeholder="Write your post here..." required></textarea>
+        <button type="submit">Create Post</button>
+      </form>
+    </div>
+
+    <div class="blog-list">
+      <h2>Recent Posts</h2>
+      <ul id="postList">
+        <!-- Blog posts will be dynamically added here -->
+      </ul>
+    </div>
+
+    <hr>
+    <footer>
+      <div class="copyright">
+        © 2025 CodeWithAP. All rights reserved.
+      </div>
+      <a class="github-link" href="https://github.com/AtharvaPatharkar" target="_blank">GitHub</a>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
