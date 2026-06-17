@@ -77,7 +77,7 @@ Follow these steps to contribute:
 
 ## 🧑‍💻 Developer
 
-Developed with ❤️ by **AtharvaPatharkar**.  
+Developed with ❤️ by **CodeWithAP**.  
 GitHub: [AtharvaPatharkar](https://github.com/AtharvaPatharkar)
 
 ---
