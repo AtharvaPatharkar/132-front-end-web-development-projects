@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Feed Mockup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>📱 Social Media Feed Mockup</h1>
+    </header>
+
+    <main>
+        <div id="feed">
+            <div class="post">
+                <div class="post-header">
+                    <div class="user-info">
+                        <img class="user-avatar" src="AP.jpg" alt="User Avatar">
+                        <span class="username">Atharva Patharkar</span>
+                    </div>
+                    <button class="more-options">...</button>
+                </div>
+                <div class="post-content">
+                    <p>This is a sample post! #socialmedia</p>
+                    <img class="post-image" src="AP.jpg" alt="Post Image">
+                </div>
+                <div class="post-actions">
+                    <button class="like-btn" onclick="toggleLike(this)">❤️ Like</button>
+                    <button class="comment-btn" onclick="toggleCommentBox(this)">💬 Comment</button>
+                </div>
+                <div class="comment-section">
+                    <div class="comment-box">
+                        <textarea placeholder="Add a comment..."></textarea>
+                        <button class="post-comment-btn">Post</button>
+                    </div>
+                    <ul class="comments-list">
+                        <li>Nice post! <span class="comment-user">- Om Shinde</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <hr>
+        <div class="copyright">
+            © 2025 CodeWithAP. All rights reserved.
+        </div>
+        <a class="github-link" href="https://github.com/AtharvaPatharkar" target="_blank">GitHub</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
