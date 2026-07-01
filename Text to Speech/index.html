@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Text to speech</title>
+</head>
+<body>
+    <h1>Text to Speech Converter</h1>
+    <textarea id="txt" name="text" placeholder="Type your text here..."></textarea>
+    <br>
+    <label for="voice-select">Select Voice:</label>
+    <select id="voice-select" class="btn"></select>
+    <br><br>
+    <p>*Takes a few seconds to process. Have patience.</p>
+    <input class="btn" type="button" onclick="textSpeak()" value="Submit">
+    <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+    <script src="script.js"></script>
+
+    <hr>
+    <footer>
+      <div class="copyright">
+          © 2024 CodeWithAP. All rights reserved.
+      </div>
+      <a class="github-link" href="https://github.com/AtharvaPatharkar" target="_blank">GitHub</a>
+  </footer>
+  
+</body>
+
+</html>
